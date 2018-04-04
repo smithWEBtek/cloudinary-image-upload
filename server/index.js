@@ -10,10 +10,10 @@ app.set('view engine', 'mustache');
 app.use('/public', express.static('public'));
 
 // Routes
-app.get('/', function(req, res) {
-  res.render('index.html');
+app.get('/', function (req, res) {
+	res.render('index.html');
 });
 
-app.listen(1337, function() {
-  console.log('Running on port 1337');
+app.listen(3001, function () {
+	console.log('Running on port 3001');
 });
